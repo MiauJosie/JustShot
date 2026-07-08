@@ -21,7 +21,7 @@
         {
             "label": "build (windows)",
             "type": "shell",
-            "command": "g++",
+            "command": "C:/w64devkit/bin/g++.exe",
             "args": [
                 "-g",
                 "${workspaceFolder}/src/main.cpp",
