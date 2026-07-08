@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${env:HOME}/raylib6/include"
+                "/home/miaujosie/raylib6/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
@@ -15,10 +15,10 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/raylib/include" // você precisa do raylib aqui
+                "C:/raylib/include"
             ],
             "defines": [],
-            "compilerPath": "C:/raylib/w64devkit/bin/g++.exe", // Troca pro seu g++
+            "compilerPath": "C:/raylib/w64devkit/bin/g++.exe",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-gcc-x64"
         }

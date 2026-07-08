@@ -33,7 +33,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:/w64devkit/bin/gdb.exe", // Troca pro seu gdb
+            "miDebuggerPath": "C:/w64devkit/bin/gdb.exe",
             "preLaunchTask": "build (windows)",
             "setupCommands": [
                 {
