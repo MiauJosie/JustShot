@@ -10,6 +10,8 @@
                 "${workspaceFolder}/src/main.cpp",
                 "-o",
                 "${workspaceFolder}/build/game",
+                "-I/{env:HOME}/raylib6/include",
+                "-L/{env:HOME}/raylib6/lib",
                 "-lraylib", "-lGL", "-lm", "-lpthread", "-ldl", "-lrt", "-lX11"
             ],
             "group": { "kind": "build", "isDefault": true },
