@@ -24,6 +24,7 @@
             "command": "C:/w64devkit/bin/g++.exe",
             "args": [
                 "-g",
+                "-B", "C:/w64devkit/bin",
                 "${workspaceFolder}/src/main.cpp",
                 "-o",
                 "${workspaceFolder}/build/game.exe",

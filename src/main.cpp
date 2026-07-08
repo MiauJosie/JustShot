@@ -9,7 +9,7 @@ int main()
     {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Hello, raylib!", 190, 200, 20, LIGHTGRAY);
+        DrawText("Hellooooooooooooooooo, raylib!", 190, 200, 20, LIGHTGRAY);
         EndDrawing();
     }
 
