@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build (linux)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/src/main.cpp",
+                "-o",
+                "${workspaceFolder}/build/game",
+                "-lraylib", "-lGL", "-lm", "-lpthread", "-ldl", "-lrt", "-lX11"
+            ],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "build (windows)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/src/main.cpp",
+                "-o",
+                "${workspaceFolder}/build/game.exe",
+                "-IC:/raylib/include",
+                "-LC:/raylib/lib",
+                "-lraylib", "-lopengl32", "-lgdi32", "-lwinmm"
+            ],
+            "group": { "kind": "build", "isDefault": false },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
